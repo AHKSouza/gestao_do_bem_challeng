@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Turma do Bem</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <img src="imagens/logo-dev-do-bem.png" alt="Logo Dev do Bem" />
+      </a>
+
+      <button id="openMenu" aria-label="Abrir menu">&#9776;</button>
+
+      <nav id="menu">
+        <button id="closeMenu" aria-label="Fechar menu">X</button>
+        <a href="index.html">Home</a>
+        <a href="quem_somos.html">Quem somos</a>
+        <a href="sobre.html">Sobre o Projeto</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contato.html">Contato</a>
+        <a href="cadastro.html">Cadastro</a>
+
+        <div class="login-search">
+          <form action="#" method="get" class="search-form" role="search">
+            <input
+              type="text"
+              name="q"
+              placeholder="Pesquisar..."
+              id="search"
+            />
+            <button type="submit" class="search-btn" aria-label="Buscar">
+              🔍
+            </button>
+          </form>
+          <a href="login.html" id="btnLogin">Login</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="slider">
+      <img
+        src="https://turmadobem.org.br/wp-content/uploads/2022/08/turma-do-bem-hero.jpg"
+        alt="Banner principal"
+        class="active"
+      />
+      <img
+        src="https://turmadobem.org.br/wp-content/uploads/2022/08/banner-tdb-1.jpg"
+        alt="Banner secundário"
+      />
+      <img
+        src="https://turmadobem.org.br/wp-content/uploads/2022/08/Forma-31-copiar-2@3x-1.jpg"
+        alt="Banner terciário"
+      />
+    </section>
+    <main>
+      <div class="projeto">
+        <div class="sobre">
+          <h1>
+            Fluxo de Organização e Gerenciamento de Dados com Aplicação de
+            Software
+          </h1>
+
+          <h2>Resumo do projeto</h2>
+          <p>
+            O objetivo deste projeto é criar uma aplicação de software simples
+            que permita organizar, gerenciar e cadastrar dados de forma prática
+            e didática. A idéia é que o usuário consiga inserir informações,
+            visualizar registros já cadastrados e mantê-los organizado em um
+            sistema digital intuitivo.
+          </p>
+        </div>
+
+        <div class="funcionalidades">
+          <h2>Principais Funcionalidades:</h2>
+          <ul>
+            <li>
+              <strong>Cadastro de Dados: </strong> O usuário poderá inserir
+              informações em formulários simples. Por exemplo, em um sistema de
+              pacientes, poderá registrar nome, telefone, e-mail e endereço.
+              Cada registro será armazenado de forma organizada.
+            </li>
+
+            <li>
+              <strong>Organização e Listagem: </strong>Os dados cadastrados
+              serão exibidos em uma lista ou tabela, permitindo fácil
+              visualização. O usuário poderá ver todos os registros de forma
+              clara e ordenada.
+            </li>
+
+            <li>
+              <strong>Edição e Atualização: </strong> A aplicação permitirá
+              alterar informações já cadastradas. Isso ajuda a manter os dados
+              atualizados e consistentes, evitando duplicidade ou erros.
+            </li>
+
+            <li>
+              <strong>Exclusão de Registro: </strong> Registros que não atendem
+              as diretrizes solicitadas pela ONG Turma do Bem, registros
+              duplicados e pacientes que já foram atendidos.
+            </li>
+
+            <li>
+              <strong>Fluxo de Gerenciamento: </strong> O sistema segue um fluxo
+              lógico (Cadastro - Visualização - Edição/exclusão). Esse fluxo
+              ajuda os usuários a entederem rapidamente como interagir com o
+              software sem se perderem.
+            </li>
+          </ul>
+
+          <div class="beneficios">
+            <h2>Benefícios do Projeto:</h2>
+            <ul>
+              <li>
+                <strong>Didático: </strong> Por ser simples, serve como um
+                excelente aprendizado sobre como funcionam aplicações de
+                cadastro e gerenciamento de dados.
+              </li>
+
+              <li>
+                <strong>Organizado: </strong> Possui uma estrutura clara e bem
+                definida, facilitando a compreensão, a manutenção e futuras
+                melhorias no código.
+              </li>
+
+              <li>
+                <strong>Escalável: </strong> Embora o projeto inicial seja
+                básico, ele pode ser expandido para incluir relatórios, gráficos
+                ou até integração com bancos de dados mais complexos.
+              </li>
+            </ul>
+          </div>
+
+          <div class="tecnologias">
+            <h2>Tecnologias utilizadas:</h2>
+            <ul>
+              <li>
+                <strong>Front-End: </strong> HTML, CSS, JavaScript para
+                interface do usuário.
+              </li>
+              <li>
+                <strong>Back-End: </strong> Python, Java, PHP ou Node.js para
+                armazenamento e processamento de dados.
+              </li>
+              <li>
+                <strong>Banco de Dados: </strong> SQLite, MySQL ou até
+                armazenamento local (JSON) para fins didáticos.
+              </li>
+              <li><strong>IA: </strong> Chatbot utilizando IBM Cloud.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        © 2025 Turma do Bem | Todos os direitos reservados | Desenvolvimento:
+        <a href="#" title="DEV do Bem">DEV do Bem 💻</a>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
