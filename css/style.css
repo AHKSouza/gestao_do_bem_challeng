@@ -943,7 +943,7 @@ footer a:hover {
     position: fixed;
     flex-direction: column;
     width: 100vw;
-    background: rgba(255, 255, 255, 0.3);
+    background: #234a03b0;
     align-items: center;
     justify-content: center;
     margin: 0;
